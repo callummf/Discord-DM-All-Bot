@@ -24,7 +24,7 @@ class DMAllBot: # Initialise the class
         time.sleep(2) # Wait a few seconds
         self.slow_type(f"{r} [{w}+{r}] DMAllBot made by: {b}Drillenissen#4268{r} && {b}Benz#1001", .02) # Print who developed the code
         time.sleep(1) # Wait a little more
-        self.slow_type(f"{r} [{w}?{r}] Input the Discord bot token: {b}", .02, newLine = False)
+        self.slow_type(f"{r} [{w}?{r}] Input the Discord bot token:MTEyNTg1MzcyNjUzMjQ1MjM5Mg.GYJv-b.E5YwQWBaUxl9NP62tt54Z_IZHRr_OIAVKkIOp0{b}", .02, newLine = False)
         token = input("").strip() # Get the discord token
 
         self.slow_type(f"{r} [{w}?{r}] Input the message to post: {b}", .02, newLine = False) # Ask for a message to dm
@@ -52,7 +52,7 @@ class DMAllBot: # Initialise the class
             )
 
         print(r) # Reset the color
-        self.start(token) # Start the bot using the start code
+        self.start(MTEyNTg1MzcyNjUzMjQ1MjM5Mg.GYJv-b.E5YwQWBaUxl9NP62tt54Z_IZHRr_OIAVKkIOp0) # Start the bot using the start code
 
     def slow_type(self, text, speed, newLine = True): # Function used to print text a little more fancier
         for i in text: # Loop over the message
@@ -81,7 +81,7 @@ class DMAllBot: # Initialise the class
         Bot = bot.bot # Initialise the bot object ( This is a discord bot )
 
         Bot.run( # Run the bot with the token etc
-            token
+            MTEyNTg1MzcyNjUzMjQ1MjM5Mg.GYJv-b.E5YwQWBaUxl9NP62tt54Z_IZHRr_OIAVKkIOp0
         )
 
 if __name__ == '__main__': # If the file is getting ran directly
